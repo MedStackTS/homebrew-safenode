@@ -3,28 +3,28 @@
 class Safenode < Formula
   desc "Zero-knowledge CLI for the SafeNode credential vault"
   homepage "https://safenode.dev/cli"
-  version "0.2.0"
+  version "0.3.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/MedStackTS/homebrew-safenode/releases/download/cli/v#{version}/safenode-darwin-arm64.tar.gz"
-      sha256 "309845e32be871b60e90a2c3b0a9cec6a6d36acceb0114c3198de72e53357d26"
+      sha256 "cb92980a8925d7aec645e4d53536787b0fe7f56656f814d8ce9d0b9211cf38db"
     end
     on_intel do
       url "https://github.com/MedStackTS/homebrew-safenode/releases/download/cli/v#{version}/safenode-darwin-amd64.tar.gz"
-      sha256 "3a687ab1f308f71771fad3a3ee5bbe1e11eee62894d050c6af1164f7291edf34"
+      sha256 "bae6c74c0c912496cb80b8b1fd498054716eb39dcb3e9743785cb91054542375"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/MedStackTS/homebrew-safenode/releases/download/cli/v#{version}/safenode-linux-arm64.tar.gz"
-      sha256 "f50494288921f5c9d91d5f7d1a73a41f4dc6d89c4bec5164cb69f422930f94af"
+      sha256 "a2ffd72583d8c257ae08346261fab67baf11b9885fb59ecf47c9055f1a6828f5"
     end
     on_intel do
       url "https://github.com/MedStackTS/homebrew-safenode/releases/download/cli/v#{version}/safenode-linux-amd64.tar.gz"
-      sha256 "7e4deb164aa6fcfafc834afc0defc1a69b2069ba618976b696e15ffd82a3fdee"
+      sha256 "85b49eaf69f57a1f97937c6bfe1fd5740a336b254b2f994382f6047de1048af9"
     end
   end
 
